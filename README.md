@@ -28,11 +28,7 @@ The assignment asked to:
 > 
 >   1. a tidy data set as described below 
 >   2. a link to a Github repository with your script for performing
-       the analysis, and 
->   3. a code book that describes the variables, the data, and any
-       transformations or work that you performed to clean up the data
-       called CodeBook.md. 
-> 
+       the analysis, and  
 > You should also include a README.md in the repo with your scripts. 
 > This repo explains how all of the scripts work and how they are connected. 
 
@@ -159,21 +155,3 @@ tidy_data_summary <- read.table(file  = "tidy_data_summary.txt",
                                 colClasses = c("numeric", "factor", rep("numeric", 66)), 
                                 nrows = 180, comment.char = "", quote = "") 
 ``` 
- 
-### CodeBook.md 
-
-The code book contains informations on the 'tidy_data_summary' table.
-It consists of the following: 
- 
-  0. Table of Contents 
-  1. Informations on 'tidy_data_summary' data table 
-     - Identificators and averages of features 
-     - Description for the variables of 'tidy_data_summary' 
-     - How to load 'tidy_data_summary' in R
-     - About 'tidy_data_summary' table 
-  2. The process by which the 'tidy_data_summary' table was produced 
-  3. Description of the features on which the averages were based 
-     - Informations on how the features were produced from the raw data 
-     - Informations on the collection of raw data 
-     - About the original data set 
- 
